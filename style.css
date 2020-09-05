@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Cinzel:wght@400;500;600;700;800;900&family=Magra:wght@400;700&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=VT323&display=swap');
+
+body {
+    margin: 100px;
+    background-color: rgba(129, 180, 116, 0.589);
+    text-align: center;
+    background-size: hv;
+}
+
+div {
+    background-image: url(imagens/fundo2.jpg);
+    background-size: cover;
+}
+
+h1.titulo {
+    background-image: url(imagens/fundo.jpg);
+    background-size: contain;
+    color: gold;
+    text-shadow: 3px 3px 2px rgba(218, 165, 32, 0.600), -3px -3px 2px rgba(218, 165, 32, 0.600);
+}
+h1 {
+    font-variant: small-caps;
+    letter-spacing: 5px;
+}
+
+h2 {
+    background-color: rgba(240, 230, 140, 0.562);
+}
+
+p {
+    text-align: justify;
+    text-indent: 70px;
+}
+
+h1.subtitulo {
+    font-variant: normal;
+    text-shadow: 0 0 5px brown;
+    letter-spacing: 10px;
+    margin: 70px;
+}
+
+h2.primeiro {
+    font-family: 'Aladin', cursive;
+}
+
+em.primeiro {
+    text-decoration: line-through;
+    font-style: normal;
+    font-weight: bold;
+}
+
+p.primeiro {
+    font-family: 'Aladin', cursive;
+    text-transform: capitalize;
+}
+
+h2.segundo {
+    font-family: 'Magra', sans-serif;
+}
+
+p.segundo {
+    font-family: 'Magra', sans-serif;
+    text-transform:uppercase;
+}
+
+h2.terceiro {
+    font-family: 'Overlock', cursive;
+}
+
+p.terceiro {
+    font-family: 'Overlock', cursive;
+}
+
+h2.quarto {
+    font-family: 'VT323', monospace;
+}
+
+p.quarto {
+    font-family: 'VT323', monospace;
+}
+
+h2.quinto {
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    font-variant: normal;
+}
+
+p.quinto {
+    font-family: 'Cinzel', serif;
+}
+
+em.quinto {
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+}
